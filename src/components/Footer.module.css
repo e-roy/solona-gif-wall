@@ -1,0 +1,50 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 25px;
+}
+
+.twitterButton {
+  display: flex;
+  align-items: center;
+}
+
+.twitterLogo {
+  width: 35px;
+  height: 35px;
+}
+
+.footerText {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.githubButton {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 40px 0 0;
+}
+
+.githubButton:hover {
+  background-color: white;
+  color: black;
+}
+
+.githubLogo {
+  padding: 0 10px;
+  color: white;
+}

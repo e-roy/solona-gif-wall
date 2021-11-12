@@ -1,0 +1,23 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.headerItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.headerText {
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
